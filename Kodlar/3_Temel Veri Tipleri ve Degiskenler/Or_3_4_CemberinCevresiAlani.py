@@ -4,7 +4,7 @@ r = float(input("Çemberin Yarı Çapını Girin:"))
 pi = 3.14159
 
 print("Çemberin Çevresi:", 2*pi*r)
-print("Çemberin Alanı  :", pi*r*r)
+print("Çemberin Alanı  :", pi*(r**2))
 
 # Ekran çıktısı
 """

@@ -4,7 +4,7 @@ boy = float(input("Boyunuzu Metre Cinsinden Giriniz(1.85 gibi):"))
 kilo = int(input("Kilonuzu Tam Sayı Olarak Giriniz(85 gibi):"))
 
 # Vücut Kitle Endeksi formülü
-vucutKitleEndeksi = kilo/(boy*boy)
+vucutKitleEndeksi = kilo/(boy**2)
 
 print("Vücut Kitle Endeksiniz (BMI):",vucutKitleEndeksi)
 
